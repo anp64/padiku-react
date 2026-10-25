@@ -1,0 +1,129 @@
+:root {
+    --warna-utama: #2e7d32;
+    --warna-utama-gelap: #1b5e20;
+    --warna-teks-muda: #666666;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+.navbar-padiku {
+    background-color: var(--warna-utama) !important;
+}
+
+.navbar-padiku .navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.navbar-padiku .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-padiku .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.navbar-padiku .nav-link.active {
+    background-color: var(--warna-utama-gelap);
+    border-radius: 4px;
+}
+
+
+.page-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-title h1,
+.page-title h2 {
+    color: var(--warna-utama);
+    font-weight: 700;
+}
+
+.page-title p {
+    color: var(--warna-teks-muda);
+}
+
+
+.card-padiku {
+    border: none;
+    border-left: 4px solid var(--warna-utama);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-padiku:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-padiku h4,
+.card-padiku h5 {
+    color: var(--warna-utama);
+}
+
+
+.btn-padiku {
+    background-color: var(--warna-utama);
+    color: #ffffff;
+    border: none;
+}
+
+.btn-padiku:hover {
+    background-color: var(--warna-utama-gelap);
+    color: #ffffff;
+}
+
+
+.site-footer {
+    background-color: var(--warna-utama);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+.table-padiku thead {
+    background-color: var(--warna-utama);
+    color: #ffffff;
+}
+
+
+.login-card {
+    max-width: 420px;
+    margin: 60px auto;
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-card h2 {
+    color: var(--warna-utama);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.badge-padiku {
+    background-color: #e8f5e9;
+    color: var(--warna-utama);
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-padiku .navbar-brand {
+        font-size: 20px;
+    }
+
+    .page-title h1,
+    .page-title h2 {
+        font-size: 22px;
+    }
+}
