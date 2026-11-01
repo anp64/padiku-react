@@ -10,6 +10,18 @@
 <img width="1861" height="976" alt="image" src="https://github.com/user-attachments/assets/4e77395f-c78c-4fe4-a9e2-fc7f34d2dda5" />
 
 
+### tugas minggu 7
+
+### 01
+kondisi awal
+<img width="1917" height="915" alt="image" src="https://github.com/user-attachments/assets/99a697e7-f360-43fc-82fb-8e4cc11e6cac" />
+
+kondisi tambah data
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/05e0af9d-6b78-4a7b-931b-b16f40e9e9aa" />
+<img width="948" height="533" alt="image" src="https://github.com/user-attachments/assets/8e027137-e12a-439b-95fa-f235e6e1aa4e" />
+
+### 02
+
 
 
 
