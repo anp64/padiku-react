@@ -28,6 +28,23 @@ loading
 <img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/32ff8314-72e0-42bc-bf28-e55733c94d40" />
 
 wifi mati
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/7db35410-fa3f-45a5-87b3-90da428d842b" />
+
+### 03
+
+1. untuk pengetesan MockAPI saya menggunakan MockAPI.io itu pengetesan API bohongan karena di website ini hanya melakukan pengetesan sebelum masuk back end dan implementasi API secara langsung
+
+2. jadi implementasinya itu ada di file halamanartikel disana ada function halaman artikel yang isi codenya seperti ini
+<img width="715" height="597" alt="image" src="https://github.com/user-attachments/assets/5d282e90-21ba-405e-a1ef-484efee22aae" />
+<img width="782" height="472" alt="image" src="https://github.com/user-attachments/assets/6ec39022-a653-4dee-9f68-67ba123b6bb5" />
+<img width="1147" height="725" alt="image" src="https://github.com/user-attachments/assets/aca3d1b6-21c2-4959-8cde-164da9159afb" />
+
+jadi di kode ini ada sebuah perkondisian dimana ada setloading dan seterror terus ada .then((response) => {
+            if (!response.ok) throw new Error('Gagal mengambil data');
+            return response.json();
+        }) jika gagal respone maka gagal mengambil data itu terjadi saat kondisi dimana wifi sedang tidak menyala jika kondisi wifinya menyala maka ketika menambahkan data di baru artikel maka datanya akan muncul di tampilan website dan juga akan muncul di mockAPI.io yang akan muncul di tampilan website saat menambahakan data adalah return dimana ada loading &&, error && !loading &&, !loading && !error && sesuai gambar ketiga 
+
+
 
 
 
