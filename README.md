@@ -24,6 +24,12 @@ kondisi tambah data
 kondisi awal saat wifi nyala
 <img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/05e0af9d-6b78-4a7b-931b-b16f40e9e9aa" />
 
+loading
+<img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/32ff8314-72e0-42bc-bf28-e55733c94d40" />
+
+wifi mati
+
+
 
 
 
