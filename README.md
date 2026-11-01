@@ -21,6 +21,9 @@ kondisi tambah data
 <img width="948" height="533" alt="image" src="https://github.com/user-attachments/assets/8e027137-e12a-439b-95fa-f235e6e1aa4e" />
 
 ### 02
+kondisi awal saat wifi nyala
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/05e0af9d-6b78-4a7b-931b-b16f40e9e9aa" />
+
 
 
 
